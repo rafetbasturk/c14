@@ -6,4 +6,4 @@ document.getElementById("inside-bar").style.width = usagePercentage;
 
 let leftSpace = 1000 - usedStorage;
 
-document.getElementById("left").firstElementChild.innerText = leftSpace;
+document.getElementById("left-space").firstElementChild.innerText = leftSpace;
